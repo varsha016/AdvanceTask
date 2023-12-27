@@ -1,0 +1,71 @@
+.resumemakerHeading{
+    font-weight: bold;
+}
+
+.card-main {
+    width: 400px;
+    background-color: white;
+ 
+    box-shadow: 
+      10px 5px 10px rgba(220, 236, 80, 0.5), 
+      -5px -5px 10px rgba(118, 235, 159, 0.5), 
+      inset 0px 10px 10px rgba(208, 145, 244, 0.2); 
+  }
+.choose-resume{
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.icons{
+    border: 1px solid #7757F4;
+    border-radius: 10px;
+    padding: 1px;
+}
+.card-centers{
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+.card-header{
+    background-color: #7757F4;
+    color: white;
+}
+.card-sub-content{
+
+    padding: 60px !important;
+}
+.btn-light{
+    color:  #7757F4 ;
+}
+.btn-light:hover{
+    color: #7757F4;
+}
+.card-body{
+    background-color: white;
+    padding: 50px;
+}
+.User-Friendly{
+    font-weight: bold;
+}
+
+@media (max-width:500px) {
+    .chooseAI{
+        width: 80%;
+    }
+    .card-main{
+        width: 250px !important;
+    }
+    .women-img{
+        width: 300px;
+    }
+    .interface-img{
+        width: 300px !important;
+    }
+    .interface-content{
+        margin-top: 35px;
+    }
+   .arrowleft{
+    width: 200px;
+   }
+}
